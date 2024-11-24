@@ -35,6 +35,8 @@ function setFormTechnical() {
     localStorage.setItem("datosTecnicos", JSON.stringify(data));
 
     alert("Datos guardados");
+
+    setScreen('environmentalConditionsScreen.html');
 }
 
 function setFormEnvironmental() {
@@ -49,6 +51,9 @@ function setFormEnvironmental() {
     localStorage.setItem("datosAmbiente", JSON.stringify(dataEnvironmental));
 
     alert("Datos guardados");
+
+    setScreen('patternsScreen.html');
+
 }
 
 function setPatterns() {
@@ -62,6 +67,8 @@ function setPatterns() {
     localStorage.setItem("datosParametros", JSON.stringify(dataPatterns));
 
     alert("Datos guardados");
+
+    setScreen('valveScreen.html');
 
 }
 
@@ -79,6 +86,7 @@ function setValve() {
     localStorage.setItem("datosValvula", JSON.stringify(dataValve));
 
     alert("Datos guardados");
+    setScreen('pressureGauge.html');
 
 }
 
@@ -95,6 +103,8 @@ function setPressure() {
     localStorage.setItem("datosManometro", JSON.stringify(dataPressure));
 
     alert("Datos guardados");
+
+    setScreen('certificateScreen.html');
 
 }
 
